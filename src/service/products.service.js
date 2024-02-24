@@ -3,7 +3,7 @@ import {computed, ref} from "vue";
 import md5 from "md5";
 import axios from "axios";
 
-const API= 'http://api.valantis.store:40000/';
+const API= 'https://api.valantis.store:41000/';
 const PASSWORD= 'Valantis';
 class ProductsService{
     getTimestamp = computed(()=> {

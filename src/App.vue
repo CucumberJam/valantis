@@ -17,8 +17,7 @@ onMounted(async() => {
   <div class="container">
     <HeaderComponent>
       <SearchComponent :options="productsStore.optionsProduct"
-                       @change="productsStore.filter"
-                        :is-sorting="productsStore.config.isSorthing"/>
+                       @change="productsStore.filter"/>
     </HeaderComponent>
     <RouterView />
   </div>
